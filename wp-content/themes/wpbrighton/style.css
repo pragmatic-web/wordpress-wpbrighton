@@ -1,0 +1,221 @@
+﻿/*  
+Theme Name: wpbrighton
+Description: A Child Theme of Thematic
+Template: thematic
+Theme URI: www.divydovy.com
+Author: David Lockie/divydovy
+Author URI: www.divydovy.com
+Version: 0.1
+Copyright (C)2011 WP-Brighton
+*/
+@import url('../thematic/library/styles/reset.css');
+@import url('../thematic/library/styles/typography.css');
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+@import url('../thematic/library/styles/images.css');
+@import url('../thematic/library/styles/default.css');
+@import url('../thematic/library/styles/plugins.css');
+@import url('delibermatic.css');
+@import url('manta9.css');
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('fonts/League_Gothic-webfont.eot');
+    src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/League_Gothic-webfont.woff') format('woff'),
+         url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6,h7,.entry-title,.page-title, .entry-content h1, .entry-content h2 { font-family:; font-weight:; font-style:; color: #373535;  padding-bottom: 7px;}
+h1 a, h1 a:link, h1 a:visited, h2 a, h2 a:link,  h2 a:visited, h3 a, h3 a:link, h3 a:visited, h4 a, h4 a:link, h4 a:visited, h5 a, h5 a:link, h5 a:visited, h6 a, h6 a:link, h6 a:visited, h7 a, h7 a:link, h7 a:link, a:visited { color: #00ace8; text-decoration:none} 
+
+/* Paragraphs, links & heading links */
+p { margin:; }
+a, a:link, a:visited { color: #00ace8; }
+a:hover, a:active { color: #00ace8; }
+.aside a, .aside a:link, .aside a:visited { color: #00ace8; }
+.aside h1 a, .aside h1 a:link, .aside h2 a, .aside h2 a:link, .aside h3 a, .aside h3 a:link, .aside h4 a, .aside h4 a:link, .aside h5 a, .aside h5 a:link, .aside h6 a, .aside h6 a:link, .aside h7 a, .aside h7 a:link { color: #00ace8; } 
+.aside a:hover, .aside a:active { color: #00ace8; }
+
+/* Wrapper */
+#wrapper { width:; margin:; }
+
+/* Header */
+#header {}
+	
+/* Branding */
+#branding { padding: 0; padding: 20px 0; display: block; overflow: hidden; }
+#blog-title { float: left; display: inline ; height:; width: 310px; margin:; padding:;  }
+#blog-title img { margin-left: -5px; }
+#blog-title span { float:; height:; width:; margin:; padding:; }
+#blog-title a { float:; display:; height:; width:; margin:; padding:; background:; text-indent:; }
+#theevent {float: right; display: inline; overflow: hidden; width:560px; border-bottom:#23aae1 solid 7px; margin-bottom:30px}
+a#book-tickets, a#book-tickets:link, a#book-tickets:visited { display: block; color: #fff; font: 60px/88px 'LeagueGothicRegular', Arial, sans-serif;letter-spacing: 0; text-transform: uppercase; height: 60px; line-height:60px; margin: 0px 0 0px 0; padding-top: 0px; width: 295px;  text-align: center; color:#24abe2; float:right; margin-top:-56px; padding-bottom:3px }
+a#book-tickets img {float:right; padding-top:12px}
+a#book-tickets:hover { text-decoration: none; }
+a#book-tickets span { font-size: 11px; text-transform: none; }
+#when { display: block; color: #373535; font-weight: bold; width: 250px; text-align: center; font: 24px/28px 'LeagueGothicRegular', Arial, sans-serif;letter-spacing: 0;}
+#when span { font-size: 25px; }
+#blog-description { float: left; display: inline; font-size: 15px; width: 50%; margin: 8px 0 3px 0; color: #373535; padding-bottom: 7px; clear: none; }
+
+/* Menu */
+#access {
+	border-bottom:none;
+	width:980px;
+	height:45px;
+	display:block;
+	background: -webkit-gradient(linear, left top, left bottom, from(#23aae1), to(#3987b2));
+	background: -moz-linear-gradient(top, #23aae1, #3987b2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#23aae1, endColorstr=#3987b2);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#23aae1, endColorstr=#3987b2)";
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px 5px 0 0 0 0 5px 5px;
+	behavior: url(/httpdocs/wp-content/themes/wpbrighton/border-radius.htc);
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.skip-link { display:none; }
+
+/* Main navigation */
+.menu { float:left; width:680px; } 
+.sf-menu { float:; border-right:none; }
+.sf-menu ul {}
+.sf-menu li { background:none; border:none; margin-left:20px; font: 22px/26px 'LeagueGothicRegular', Arial, sans-serif ;letter-spacing: 0; color:#FFFFFF; list-style: outside; padding:0px }
+.sf-menu li:first-child {list-style:none}
+.sf-menu a, .sf-menu a:link, .sf-menu a:visited {border:none; background:none; border:none; font: 22px/26px 'LeagueGothicRegular', Arial, sans-serif; letter-spacing: 0; color:#FFFFFF; padding-top: 9px; padding-right: 13px; padding-bottom: 10px; padding-left: 0px; }
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active { background:none; border:none; color: #baddec; outline:;}
+.sf-menu li.current_page_item, li.sf-menu .current_page_ancestor, li.sf-menu .current_page_parent { border-bottom-color: ; }
+.sf-menu .current_page_item a, .sf-menu .current_page_ancestor a, .sf-menu .current_page_parent a { color: #baddec; }
+
+/* Main */
+#main { width:; margin:; padding: 30px 0 0 0; }
+#container { display:; width:; margin:; padding:; }
+#content { width:; padding:; margin:; }
+.hentry { border:none}
+
+/* Search */
+.noresults p { margin-top: 10px; font-size: 125%; line-height: 125%; }
+
+/* Pages */
+.page-title { font-size:; line-height:; padding:; margin-bottom: 10px;}
+.page-title span { font-style:; }
+.entry-title a, .entry-title a:link, .entry-title a:visited { color: #00ace8; }
+.entry-title {font: 36px/42px 'LeagueGothicRegular', Arial, sans-serif ;letter-spacing: 0; color:#23aae1}
+.entry-content h2 {font: 30px/34px 'LeagueGothicRegular', Arial, sans-serif ;letter-spacing: 0; color: #23aae1; border-top: #23aae1 solid 6px; display:inline-block; padding-top: 5px; margin-top: 15px; margin-bottom: 0; }
+.entry-content h3 {font: 20px/24px 'LeagueGothicRegular', Arial, sans-serif ;letter-spacing: 0; color: #23aae1; border-top: #23aae1 solid 3px; display:inline-block; padding-top: 5px; margin-top: 10px; margin-bottom: 0; }
+.entry-content h4 {margin-top:32px; }
+.entry-content h4 a { display:inline; background-color:#23aae1; font: 30px/34px 'LeagueGothicRegular', Arial, sans-serif; letter-spacing: 0; color:#FFFFFF; moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px 5px 0 0 0 0 5px 5px; behavior: url(/httpdocs/wp-content/themes/wpbrighton/border-radius.htc); padding-left:10px; padding-top:3px; padding-bottom:3px; padding-right:35px; background-image:url(images/smallarrow.png); background-position:right 13px; background-repeat: no-repeat; }
+.aside h5 a, .aside h5 a:link{ display:inline; background-color:#23aae1; font: 26px/30px 'LeagueGothicRegular', Arial, sans-serif; letter-spacing: 0; color:#FFFFFF; moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px 5px 0 0 0 0 5px 5px; behavior: url(/httpdocs/wp-content/themes/wpbrighton/border-radius.htc); padding-left:10px; padding-top:4px; padding-bottom:2px; padding-right:35px; background-image:url(images/smallarrow.png); background-position:right 10px; background-repeat: no-repeat; }
+
+/* Schedule table */
+table#table-schedule { border:0 none; padding:0; margin:0; width:620px; text-align:center; font-size:15px; color:#666; }
+table#table-schedule tr, table#table-schedule th, table#table-schedule td { padding:0; margin:0; border:0 none; }
+table#table-schedule th, table#table-schedule td { padding:5px; border-bottom:1px solid #EEEFEF; }
+table#table-schedule .border-right, table#table-schedule .time { border-right:1px solid #EEEFEF; }
+table#table-schedule .time { width:50px; }
+table#table-schedule .main-col { width:290px; }
+table#table-schedule .transition td	 { background-color:#EEEFEF; }
+table#table-schedule th { font: 30px/34px 'LeagueGothicRegular', Arial, sans-serif ;letter-spacing: 0; color: #23aae1; }
+
+/*.entry-title a, .entry-title a:link, .entry-title a:visited { color: #00ace8; text-decoration: none; }*/
+.entry-content { padding:; font-size:; line-height:; }
+.entry-content p span { font-size: 18px; color: #333 }
+.entry-content p a, .entry-content p a:link { font-weight: normal; text-decoration:underline; color:#666 }
+.entry-content p a:hover { color:#23aae1}
+
+/* Blog */
+.hentry { padding:; border 0 none; }	
+.entry-title a:hover, .entry-title a:active { color:; }
+.entry-meta { display:; color:; font-style:; }
+.entry-meta .n { text-transform:; letter-spacing:; font-size:; }
+.entry-meta abbr { border:; cursor:; font-size:; font-style:; letter-spacing:; text-transform:; }
+.entry-utility { margin:; }
+.entry-utility a { font-style:; text-decoration:; }
+
+/* Forms */
+input, textarea { padding: 3px !important; font-size: 13px !important; border: 1px solid #ccc; color: black; background-color: #fff; width: 100%; }
+input.button { width: 25%; cursor: pointer}
+.widgetcontainer input, .widgetcontainer textarea { padding: 5px !important; font-size: 13px !important; border: 1px solid #ccc; color: black; background-color: #fff; width: 95% !important; }
+.widgetcontainer input.button { width: 40% !important}
+
+/* Gravity forms */
+.gform_wrapper .gform_footer { padding: 0 !important; }
+.widgetcontainer input#gform_submit_button_2 { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; letter-spacing: 0; color:#4caae0; width: auto !important; display:block; padding: 5px !important; border:none; font: 26px/30px 'LeagueGothicRegular', Arial, sans-serif !important; line-height: 22px; text-transform: uppercase; text-align:left; }
+.widgetcontainer input.button#gform_submit_button_2:hover { color: #fff; background-color: #4caae0; }
+
+/* Search */
+input#s { width: 94% !important; }
+.widgetcontainer input#s { width: 94% !important; }
+#search {float:right; margin-right:15px; margin-top:8px}
+#search input, #search input#noresults-s {width:192px; height:22px; border:none; padding:3px; margin-top:0px; float:left; margin-right:5px; font-family: 'LeagueGothicRegular', Arial, sans-serif ; font-size: 22px !important; letter-spacing: 0; }
+#search input#noresults-searchsubmit { border: none; width:67px; height:29px; background:none; padding:0px !important; font-size:22px !important }
+
+/* Sidebars */
+#primary.main-aside { /*border: 0 none*/; display:; border:; width:; right:; padding:; margin:; }
+.aside h3, .aside h4 { font: 30px/34px 'LeagueGothicRegular', Arial, sans-serif;letter-spacing: 0; color:#666666; background-color:#eeefef; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px 5px 0 0 0 0 5px 5px; behavior: url(/httpdocs/wp-content/themes/wpbrighton/border-radius.htc); padding-left:10px; padding-top:3px; padding-bottom:3px }
+.aside li.gform_widget h3 { color:#fff; background-color: #23AAE1; }
+.aside h3 a.twitterwidget {color:#666666; background-image:url(images/twitter.png); background-position:left top; background-repeat: no-repeat; padding-left:45px }
+.main-aside ul li ul.sponsors {margin-left:0px}
+.aside ul, .aside ul ul { display:; padding-left:; margin-left:; list-style:; }
+.aside ul.sponsors { list-style: none; margin-left: 10px; margin-bottom: 12px; }
+.aside ul.sponsors ul { list-style: none; margin-left: 0px !important;}
+.aside ul.sponsors li ul li { margin-bottom: 10px; border:#eeefef 1px solid; padding:10px }
+.aside ul.sponsors li ul li:hover { border:#ccc 1px solid }
+
+
+#secondary { border: 0 none; padding: 0; margin-bottom: 0;}
+
+.aside li { margin-bottom:20px; margin-left:; }
+.aside li:last-child { border-bottom: 0 none; margin-bottom: 0 }
+.aside li ul li { margin-bottom:0; margin-left:; border-bottom-style:none; border-bottom-color:inherit; border-bottom-width:0; }
+.aside ul.sponsors li#linkcat-9 ul {margin-left:15px; padding-left:20px; }
+.aside ul.sponsors li#linkcat-9 ul li {border:none; list-style:outside; padding: 0; }
+.aside ul.sponsors li#linkcat-9 ul li a {color:#666; text-decoration:underline}
+.main-aside ul { padding: 0; }
+div.supporter { margin-bottom: 10px; border:#eeefef 1px solid; padding:10px }
+div.supporter:hover { border:#ccc 1px solid }
+.aside li div.textwidget a img {width: 100%; }
+
+#linkcat-12 ul, #linkcat-12 ul li { list-style:inside none none; margin-left:0; }
+#linkcat-12 ul li { margin-bottom: 10px; border:#eeefef 1px solid; padding:10px }
+#linkcat-12 ul li:hover { border:#ccc 1px solid }
+
+
+li#twitter-3 {border:none}
+li#twitter-3 .entry-content {font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#23aae1}
+li#twitter-3 .entry-content a {text-decoration:underline}
+li#twitter-3 .entry-content a:hover { color: #666; }
+li#twitter-3 .entry-meta {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666}
+li#twitter-3 .entry-meta a {color:#666666; text-decoration:underline}
+li#twitter-3 .entry-meta a:hover { color:#23aae1; }
+li#twitter-3  ul li {border-top:#cfd1d1 solid 1px; list-style:none; padding-bottom:17px; padding-top:17px; padding-right:10px}
+li#twitter-3  ul li:first-child {border:none}
+
+/* Special styling */
+.aside a.bigbutton, .entry-content p a.bigbutton { text-decoration: none; display: inline-block; color:#fff; font: 30px/34px 'LeagueGothicRegular', Arial, sans-serif;letter-spacing: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px 5px 0 0 0 0 5px 5px; behavior: url(/httpdocs/wp-content/themes/wpbrighton/border-radius.htc); padding: 3px 10px; background:#23AAE1 url('images/arrow_white.png') no-repeat 95% 60%; }
+.aside a.bigbutton { display: block; }
+.entry-content p a.bigbutton { padding-right: 40px; }
+.aside a.bigbutton:hover, .entry-content p a.bigbutton:hover { text-decoration: none; color: #baddec; }
+
+/* Footer */
+#footer { width:; margin:; border-top:none; background-color:; height:; }
+#siteinfo {border-top:#23aae1 solid 7px; padding-top: 7px; padding-bottom: 7px }
+#siteinfo a, #siteinfo a:link { color: #00ace8; }
+#siteinfo a:hover, #siteinfo a:active { color:; }
+.site-admin-link { cursor:; text-decoration:; }
+#siteinfo a.site-admin-link:hover, #siteinfo a.site-admin-link:active { color:; }
+
+#footernav {border-top:#23aae1 solid 7px;}
+#footernav.sf-menu, #footernav.sf-menu .menu {float:none; overflow:hidden; height:50px; position:static; width:980px; margin-left:auto; margin-right:auto}
+#footernav.sf-menu ul {width:980px; position:static; border:none !important; top:0px !important}
+#footernav.sf-menu li { font: 18px/22px 'LeagueGothicRegular', Arial, sans-serif; letter-spacing: 0; color:#666666; padding:0px; display:block; float:left; width:auto; list-style: outside; }
+#footernav.sf-menu li:first-child {list-style:none; margin-left:0px }
+#footernav.sf-menu a, #footernav.sf-menu a:link, #footernav.sf-menu a:visited { color:#666666; font-size:18px; }
