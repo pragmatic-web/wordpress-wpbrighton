@@ -1,0 +1,17 @@
+/*
+ Theme Name:   WordUp Brighton
+ Theme URI:    http://www.wp-brighton.org.uk/
+ Description:  Twenty Fifteen Child Theme for WordUp Brighton
+ Author:       Various
+ Author URI:   http://www.wp-brighton.org.uk/
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+.meetup-widget-event-list .wpm-date-display {
+	display: none;
+}
