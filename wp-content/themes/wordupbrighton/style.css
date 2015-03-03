@@ -13,5 +13,11 @@
 */
 
 .meetup-widget-event-list .wpm-date-display {
-	display: none;
+	background-color: #21759b;
+	color: white;
+}
+
+.widget_twitter ul, 
+.widget_twitter li {
+    list-style: inside none none;
 }
